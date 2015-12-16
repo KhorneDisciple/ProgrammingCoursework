@@ -38,11 +38,6 @@ cInputMgr::cInputMgr()
 		keysPressedBuffer[key] = false;
 	}
 	
-	mousePos.x = 0;                         // screen X
-	mousePos.y = 0;                         // screen Y
-	leftMouseBtn = false;               // true if left mouse button is down
-	middleMouseBtn = false;               // true if middle mouse button is down
-	rightMouseBtn = false;               // true if right mouse button is down
 
 }
 
